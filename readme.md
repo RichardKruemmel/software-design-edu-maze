@@ -1,6 +1,6 @@
 
 
-This is a maze generator and solver. It is a simple deskptop app that uses python and tkinter. Here is some documentation of the 
+This is a maze generator and solver. It is a simple deskptop app that uses python and tkinter. Here is some documentation of the functions
 
 ## redraw() method
 
