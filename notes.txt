@@ -1,0 +1,8 @@
+Preparations for Session 1:
+    Tests are not sufficient
+    TKinter might be better to be replaced by pyqt
+        Downsides: paid licence and steeper learning curve
+        Upside: more reliable and native UI, better UI widgets
+    Maze solving algorithm is only DFS, maybe A* better solution
+    Maze creation way to slow
+    Code contains comments
