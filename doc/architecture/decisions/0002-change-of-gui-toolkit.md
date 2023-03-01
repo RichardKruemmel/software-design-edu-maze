@@ -16,9 +16,9 @@ To address this issue, we will introduce a new interface layer between the appli
 
 ``` mermaid
 graph LR
-    ApplicationLogic["Application Logic"]
-    InterfaceLayer["Interface Layer"]
-    GUIToolkit["GUI Toolkit (QT5, etc)"]
+    ApplicationLogic["Application <br> Logic"]
+    InterfaceLayer["Interface <br> Layer"]
+    GUIToolkit["GUI Toolkit <br> (QT5, etc)"]
     ApplicationLogic --- InterfaceLayer
     InterfaceLayer --- GUIToolkit
 ```
