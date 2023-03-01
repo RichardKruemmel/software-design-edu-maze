@@ -15,10 +15,12 @@ Our current implementation of the edu-maze application uses TKinter as the GUI t
 To address this issue, we will introduce a new interface layer between the application logic and the GUI toolkit. This interface layer will act as a mediator between the application logic and the GUI toolkit, allowing us to decouple the two and make it easier to switch between different GUI toolkits in the future. We will use the QT5 toolkit as an example of a different GUI toolkit we may switch to.
 
 ``` mermaid
-+----------------+       +----------------+       +----------------+
-|  Application   | <---> |    Interface   | <---> |   GUI Toolkit  |
-|    Logic       |       |     Layer      |       |    (QT5, etc)  |
-+----------------+       +----------------+       +----------------+
+graph LR
+    ApplicationLogic["Application Logic"]
+    InterfaceLayer["Interface Layer"]
+    GUIToolkit["GUI Toolkit (QT5, etc)"]
+    ApplicationLogic--<-->InterfaceLayer
+    InterfaceLayer--<-->GUIToolkit
 ```
 
 ## Consequences
