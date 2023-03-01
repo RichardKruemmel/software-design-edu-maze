@@ -19,8 +19,8 @@ graph LR
     ApplicationLogic["Application Logic"]
     InterfaceLayer["Interface Layer"]
     GUIToolkit["GUI Toolkit (QT5, etc)"]
-    ApplicationLogic--<-->InterfaceLayer
-    InterfaceLayer--<-->GUIToolkit
+    ApplicationLogic --- InterfaceLayer
+    InterfaceLayer --- GUIToolkit
 ```
 
 ## Consequences
